@@ -159,7 +159,7 @@ section, header, .container, .modal-content {
     height: 100vh;
     z-index: 3;
     font-size: 20px;
-    background-image: url(../img/);
+    background-image: url(../img/1.png);
     background-size: cover;
   }
 }
