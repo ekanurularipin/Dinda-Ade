@@ -41,6 +41,13 @@ body::after {
       z-index: -1;
       background-color: rgba(0, 0, 0, 0.5);
     }
+front-image::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
 section, header, .container, .modal-content {
       position: relative;
       z-index: 2;
@@ -159,8 +166,10 @@ section, header, .container, .modal-content {
     height: 100vh;
     z-index: 3;
     font-size: 20px;
-    background-image: url(../img/1.png);
+    background-image: url(../img/g14.jpg);
     background-size: cover;
+    animation: change 40s infinite ease-in-out;
+    -webkit-animation: change 40s infinite ease-in-out;
   }
 }
 
