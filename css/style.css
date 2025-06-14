@@ -21,18 +21,30 @@
 .text-berem {
   color: #82819150;
 }
-
-.bg-wakwak {
-  background-image: url(../img/1.png);
-  background-size: cover;
-  background-position: center;
-  animation: change 40s infinite ease-in-out;
-  background-repeat: no-repeat;
-  overflow: hidden;
-  position: relative;
-  justify-content: center;
-  text-align: center;
-}
+ body::before {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url(../img/1.png);
+      animation: change 40s infinite ease-in-out;
+      -webkit-animation: change 40s infinite ease-in-out;
+      opacity: 0.9;
+    }
+body::after {
+      content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -1;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+section, header, .container, .modal-content {
+      position: relative;
+      z-index: 2;
+    }
 
 .text-wakwak {
   background-color: #ffffff;
