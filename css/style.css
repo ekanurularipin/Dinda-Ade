@@ -166,7 +166,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.815); /* Hitam transparan */
+  background-color: rgba(0, 0, 0, 0.643); /* Hitam transparan */
   z-index: 1;
 }
 .history::before {
