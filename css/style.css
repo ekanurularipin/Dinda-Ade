@@ -160,10 +160,13 @@ section, header, .container, .modal-content {
     height: 100vh;
     z-index: 3;
     font-size: 20px;
-    background-image: url(../img/14.jpg);
+    background-image: url(../img/g14.jpg);
     background-size: cover;
+    animation: change 40s infinite ease-in-out;
+      -webkit-animation: change 40s infinite ease-in-out;
+      opacity: 0.9;
   }
-  front-image::after {
+  front-text::after {
       content: "";
       position: fixed;
       inset: 0;
