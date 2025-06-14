@@ -166,7 +166,7 @@ section, header, .container, .modal-content {
       -webkit-animation: change 40s infinite ease-in-out;
       opacity: 0.9;
   }
-  front-text::after {
+  #front-text::after {
       content: "";
       position: fixed;
       inset: 0;
