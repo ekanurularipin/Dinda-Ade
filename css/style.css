@@ -156,15 +156,17 @@ section, header, .container, .modal-content {
     display: none;
   }
   #front-text {
-    padding-top: 40%;
-    height: 100vh;
-    z-index: -2;
-    font-size: 20px;
-    background-image: url(../img/g14.jpg);
-    background-size: cover;
-    animation: change 40s infinite ease-in-out;
-    -webkit-animation: change 40s infinite ease-in-out;
-    opacity: 0.9;
+    content: "";
+      position: fixed;
+      inset: 0;
+      z-index: -2;
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-image: url(../img/1.png);
+      animation: change 40s infinite ease-in-out;
+      -webkit-animation: change 40s infinite ease-in-out;
+      opacity: 0.9;
   }
   front-image::after {
       content: "";
